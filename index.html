@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+   <head>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+
+   <body>
+      <div class="container">
+         <h2> hex-chess ._. </h2>
+         <p id = "placeholder"> LOADING... </p>
+         <canvas style="display:block" id = "canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
+      </div>
+
+      <script> 
+         var Module = { 
+
+            canvas: document.getElementById("canvas"),
+
+            setStatus: (text) => {
+               if ( !text ) {
+                  const placeholder = document.getElementById("placeholder");
+                  placeholder.style.display = "none";
+                  canvas.style.display = "block";
+               }
+            }
+         };
+      </script>
+
+      <script src="mycexports.js"> </script>
+      <script src="runtime.js"> </script>
+
+      <script src="script.js"> </script>
+   </body>
+</html>

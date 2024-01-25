@@ -1,0 +1,49 @@
+html {
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   font-size: 2rem;
+
+   text-align: center;
+   font-family: monospace;
+   background: #22272e;
+   color: #adbac7;
+
+   height: 100%;
+
+   padding: 0;
+   margin: 0;
+}
+
+
+.container {
+   margin: auto;
+   text-align: center;
+   background: #2b313b;
+
+   max-width: 850px;
+   height: 100%;
+}
+
+.container h2 {
+   padding: 1rem;
+   margin: 0;
+}
+
+
+#canvas {
+   margin: 0 auto;
+}
+
+
+#placeholder {
+
+   max-height: 800px;
+   line-height: 800px;
+
+   text-align: center;
+   font-size: 5rem;
+   margin: 0;
+}
